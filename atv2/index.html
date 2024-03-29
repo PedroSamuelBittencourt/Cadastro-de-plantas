@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMC</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="bloco">
+        <form id="form-cadastro" onsubmit="return false">
+
+        <h1>Cadastre sua planta!</h1>
+
+        <h2>Digite o Nome da Planta:</h2><p>(obrigatório)</p>
+        <input type="text" id="nome">
+        
+        <h2>Digite a espécie da sua planta:</h2><p>(obrigatório)</p>
+        <input type="text" id="especie">
+
+        <h2>Digite a altura da planta:</h2><p>(opcional)</p>
+        <input type="text" id="altura">
+
+        
+        </form>
+        <input type="submit" name="enviar" id="botao" value="Cadastrar" onclick="cadastro()">
+        <h3 id="planta"></h3>
+    </div>
+    
+<script src="app.js"></script>
+</body>
+</html>
